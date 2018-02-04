@@ -1,0 +1,109 @@
+/* GLOBAL 
+----------------------------------------
+*/	
+
+body {
+    max-width: 1080px; 
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-size: 32px; 
+    letter-spacing: 3px;
+}
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+    background-color: #FCFDF3;
+}
+
+header .title p {
+    text-align: center;
+    position: relative;
+    bottom: 52px;
+    right: 130px;
+    color: #DDD9C3;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    list-style: none;
+
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 8px;
+
+}
+
+header nav a:link {
+    text-decoration: none;
+}
+
+header img {
+    max-width: 125px;
+    max-height: 125px;
+    margin-top: 25px;
+    position: relative;
+    left: 25px;
+}
+
+header .social-nav {
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 370px;
+    border-right: solid 1px #BCB292;
+    
+}
+
+
+header .search {
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 150px;
+}
+
+input {
+    border: #D6D0B8 1px solid;
+    width: 80px;
+
+}
+
+
+.fab {
+    font-family: Font Awesome\ 5 Brands;
+    color: #BCB292;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    color: #EE4D28;
+    position: absolute;
+    right: 85px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+/* SLIDER 
+------------------- */
+.slider {
+    background: red;
+    height: 250px;
+    color: #FDE6E3;
+}
+
+.slider p {
+    font-family: 'Dancing Script', cursive;
+}
