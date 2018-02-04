@@ -100,10 +100,53 @@ input {
 ------------------- */
 .slider {
     background: red;
-    height: 250px;
+    height: 400px;
     color: #FDE6E3;
 }
 
 .slider p {
     font-family: 'Dancing Script', cursive;
+    width: 38%;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #fff;
 }
+
+.slider h1 {
+    margin-left: 25px;
+    padding-top: 25px;
+    text-shadow: 1px 1px #000;
+}
+
+.slider .coffee-menu {
+    background-color: #DDD5BC;
+    max-width: 1030px;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.slider .coffee-menu li {
+    display: inline-block;
+    padding: 0px 20px 15px 20px;
+}
+
+.slider .coffee-menu li:nth-child(-n+4) {
+    border-right: 1px solid red;
+}
+
+.slider .coffee-menu a:link {
+    color: red;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.slider .coffee-menu a:visited {
+    color: red;
+}
+
+
