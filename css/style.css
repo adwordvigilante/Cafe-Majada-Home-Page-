@@ -149,4 +149,20 @@ input {
     color: red;
 }
 
+.slider button {
+    background: #fff;
+    border: 0;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
 
