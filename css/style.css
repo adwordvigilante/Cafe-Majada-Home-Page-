@@ -100,7 +100,6 @@ input {
 ------------------- */
 .slider {
     background: red;
-    height: 400px;
     color: #FDE6E3;
 }
 
@@ -137,6 +136,7 @@ input {
     border-right: 1px solid red;
 }
 
+
 .slider .coffee-menu a:link {
     color: red;
     text-decoration: none;
@@ -145,24 +145,107 @@ input {
     letter-spacing: 1px;
 }
 
+
+.slider .coffee-menu a:active {
+    color: red;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.slider .coffee-menu a:hover {
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 1px 1px #9e9e9e;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
 .slider .coffee-menu a:visited {
     color: red;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
 }
 
 .slider button {
     background: #fff;
     border: 0;
     font-family: 'Dancing Script', cursive;
-    color: red;
     width: 250px;
     height: 50px;
-    margin-left: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 0px 25px 75px; 
     font-size: 35px;
     text-align: left;
     padding-left: 20px;
+    position: relative;
+}
+
+.slider button a {
+    position: relative;
+    display: inline-block;
+}
+
+.slider button a:link {
+    color: red;
+    text-decoration: none;
+    font-size: 35px;
 
 }
 
+.slider button a:visited {
+    color: red;
+    text-decoration: none;
+    font-size: 35px;
 
+
+}
+
+.slider button a:active {
+    color: red;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.slider button a:hover {
+    color: red;
+    text-decoration: none;
+    font-size: 40px;
+    -webkit-transition: font-size 0.2s; 
+    transition: font-size 0.2s; 
+}
+
+.slider button a:visited {
+    color: red;
+    text-decoration: none;
+    font-size: 35px;
+
+}
+
+/* SUMMARY SECTION 
+---------------------------------------- */
+
+.background {
+    background-color: #FCFDF3;
+    padding-top: 25px;
+}
+
+#summary h2 {
+    font-size: 32px;
+    color: #E16268;
+    letter-spacing: 3px;
+    display: list-item;
+    margin-left: 75px;
+}
+
+#summary p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #9a947c;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 45px;
+
+}
