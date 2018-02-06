@@ -6,7 +6,6 @@ html {
 }
 body {
     max-width: 1080px; 
-    max-height: auto; 
     margin: 0 auto;
 }
 
@@ -320,7 +319,20 @@ input {
 /* COFFEE BLURBS *
 ------------------------------ */
 #coffee-blurbs {
-    overflow: hidden; 
+    position: relative;
+    bottom: 250px;
+    left: 35px;
+}
+
+#coffee:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+#coffee-blurbs .left-box { 
+    margin-left: 10px;
+    
 }
 
 #coffee-blurbs .left-box, .right-box { 
@@ -341,7 +353,7 @@ input {
     letter-spacing: 2px;
     color: #fff;
     background-color: red;
-    width: 260px;
+    max-width: 275px;
     padding: 8px 0px 8px 15px;
 }
 
@@ -350,6 +362,6 @@ input {
     letter-spacing: 2px;
     color: #fff;
     background-color: red;
-    width: 260px;
+    max-width: 275px;
     padding: 8px 0px 8px 15px;
 }
