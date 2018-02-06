@@ -4,7 +4,9 @@
 
 body {
     max-width: 1080px; 
+    max-height: auto; 
     margin: 0 auto;
+    box-sizing: border-box; 
 }
 
 h1, h2 {
@@ -124,7 +126,6 @@ input {
     margin-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    box-sizing: border-box;
 }
 
 .slider .coffee-menu li {
@@ -255,7 +256,7 @@ input {
 #coffee {
     position: relative;
     left: 65%;
-    width: 100%;
+    max-width: 210px; 
     bottom: 150px;
 
 }
@@ -301,4 +302,53 @@ input {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+#coffee li {
+    padding: 13px 0px 13px 50px; 
+}
+
+#coffee li:nth-child(even) {
+    background-color: #E7E2D0;
+}
+
+#coffee li:nth-child(odd) {
+    background-color: #EEE9DE;
+}
+
+/* COFFEE BLURBS *
+------------------------------ */
+#coffee-blurbs {
+    overflow: hidden; 
+}
+
+#coffee-blurbs .left-box, .right-box { 
+    width: 260px;
+    display: inline-block;
+}
+
+#coffee-blurbs .left-box, .right-box p { 
+    color: #9a947c;
+    background-color: #EEE9DE;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+
+#coffee-blurbs .left-box h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: red;
+    width: 260px;
+    padding: 8px 0px 8px 15px;
+}
+
+#coffee-blurbs .right-box h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: red;
+    width: 260px;
+    padding: 8px 0px 8px 15px;
 }
